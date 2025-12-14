@@ -58,7 +58,44 @@ the same requirements as windows so i will move straight to what to install and 
 
 so according to my findings i can see that MACOS has what they call homebrew and some users might not have it installed on their machines yet so i will do the honor of showing how, according to youtube
 
-run this in the terminal: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"  just copy and paste it bro, no need to type all thses
+run this in the terminal: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"  just copy and paste it bro, no need to type all these
+
+install python in the terminal, run: **brew install python** it should work
+
+verigy with **python --version**
+
+install FFmpeg again in the terminal run; **brew install ffmpeg**
+
+verify using **ffmpeg --version**
+
+install yt-dlp in the terminal, do i have to say in the terminal all the time? run: **pip3 install yt-dlp**
+
+now all you have to do is save the script in a location you will remember keep the name of the way you saved the script as well. you can save it as a .txt file and then change the .txt to .py then you are good to go
+
+now to run the script use this command say the script is on the desktop; **cd~/Desktop** hit enter then type **python3 youtube_downloader.py** depends if you saved it as youtube_downloader.py
+
+then you follow what you see instruction you see on the screen.
+
+do not worry about where the files will be saved a folder will be created on your desktop if it is an audio file it will save as audio, if it is a video file it will save as video 
+
+**FOR LINUX**
+it is pretty simple
+
+**sudo apt update**
+
+**sudo apt install python3 python3-pip ffmpeg -y**
+
+**pip install yt-dlp**
+
+then you run the script assuming you saved it on the desktop
+ cd ~/Desktop
+ 
+ then you run it 
+
+ **python3 youtube_downloader.py**
+
+ do not worry about where the files will be saved a folder will be created on your desktop if it is an audio file it will save as audio, if it is a video file it will save as video 
+
 
 
 
